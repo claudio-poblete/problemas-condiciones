@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button-second-color{
+  background-color: #3282B8;
+  color: #000000;
+}
+
+.button-principal-color{
+  background-color: #1B262C;
+  color: #FFFFFF;
+}
+
+.circle-button{
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.circle-button:hover{
+  background-color: #0F4C75;
+  transition: .6s ease-in-out;
+}
+
+.main-section{
+  background-color: #1B262C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button-container{
+  display: flex;
+  gap: 5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button{
+  background-color: #BBE1FA;
+  color: #000000;
+  padding: 2rem 5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover{
+  transition: .6s ease-in-out;
+  background-color: #3282B8;
+  color: #FFFFFF;
+}
+
+.button:focus{
+  background-color: #0F4C75;
+  color: #FFFFFF;
+}
+
+.img-section{
+  height: 100vh;
+  background-color: #BBE1FA;
+  display: flex;
+  gap: 15rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.img-container h2{
+  font-size: 2rem;
+  color: #1B262C;
+}
+
+.dog-img{
+  width: 350px;
+  height: 400;
+  object-fit: cover;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.sticker-section{
+  height: 100vh;
+  background-color: #1B262C;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  display: flex;
+  gap: 15rem;
+}
+
+.title h2{
+  font-size: 2.5rem;
+  color: #FFFFFF;
+}
+
+.sticker-main-container{
+  display: flex;
+  gap: 5rem;
+}
+
+.sticker-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.sticker-img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.sticker-input{
+  width: 300px;
+  height: 30px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.verification-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.parrafo{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.ver-btn{
+  color: #FFFFFF;
+  padding: 0.8rem 4rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.border-button{
+  border-radius: 0.5rem;
+}
+
+.ver-btn:hover{
+  background-color: #BBE1FA;
+  color: #1B262C;
+  transition: .6s ease-in-out;
+}
+
+.password-section{
+  height: 100vh;
+  background-color: #0F4C75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pass-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+
+.pass-title h2{
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.pass{
+  background-color: #000000;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  color: #FFFFFF;
+}
+
+.pass-verification{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
