@@ -4,6 +4,7 @@ const verificationButton = document.querySelector('#verification-btn')
 const passButton = document.querySelector('#pass-btn')
 const paraPass = document.querySelector('#pass-para')
 
+//Ejercicio Imagen
 const changeColor = () =>{
   dogImg.style.border = "2px solid red"
 }
@@ -24,6 +25,7 @@ dogImg.addEventListener('click', ()=>{
   }
 })
 
+//Ejercicio Stickers
 verificationButton.addEventListener('click', () =>{
   const stickerUno = document.querySelector('#stickerUno').valueAsNumber
   const stickerDos = document.querySelector('#stickerDos').valueAsNumber
@@ -38,30 +40,23 @@ verificationButton.addEventListener('click', () =>{
   }
  })
 
+//Ejercicio Password
+function fillSelect(select){
+  for(let i = 1; i < 10; i++){
+    let option = document.createElement('option')
+    option.value = i
+    option.text = i
+    select.appendChild(option)
+  }
+}
+
 let selectUno = document.querySelector('#firstPass')
 let selectDos = document.querySelector('#secondPass')
 let selectTres = document.querySelector('#thirdPass')
 
-for(let opcionUno = 1; opcionUno < 10; opcionUno++){
-  let option = document.createElement('option')
-  option.value = opcionUno
-  option.text = opcionUno
-  selectUno.appendChild(option)
-}
-
-for(let opcionDos = 1; opcionDos < 10; opcionDos++){
-  let option = document.createElement('option')
-  option.value = opcionDos
-  option.text = opcionDos
-  selectDos.appendChild(option)
-}
-
-for(let opcionTres = 1; opcionTres < 10; opcionTres++){
-  let option = document.createElement('option')
-  option.value = opcionTres
-  option.text = opcionTres
-  selectTres.appendChild(option)
-}
+fillSelect(selectUno)
+fillSelect(selectDos)
+fillSelect(selectTres)
 
 passButton.addEventListener('click', () =>{
   selectUno = document.querySelector('#firstPass')
