@@ -14,13 +14,18 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 
-.button-second-color{
-  background-color: #3282B8;
+.btn-primary{
+  background-color: #F4CE14;
   color: #000000;
 }
 
-.button-principal-color{
-  background-color: #1B262C;
+.btn-secondary{
+  background-color: #495E57;
+  color: #FFFFFF;
+}
+
+.btn-tertiary{
+  background-color: #45474B;
   color: #FFFFFF;
 }
 
@@ -35,13 +40,8 @@ body{
   border-radius: 50%;
 }
 
-.circle-button:hover{
-  background-color: #0F4C75;
-  transition: .6s ease-in-out;
-}
-
 .main-section{
-  background-color: #1B262C;
+  background-color: #F5F7F8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,8 +58,6 @@ a{
 }
 
 .button{
-  background-color: #BBE1FA;
-  color: #000000;
   padding: 2rem 5rem;
   font-weight: 700;
   font-size: 1.5rem;
@@ -68,20 +66,14 @@ a{
   border: none;
 }
 
-.button:hover{
+.button:hover, .circle-button:hover, .ver-btn:hover{
   transition: .6s ease-in-out;
-  background-color: #3282B8;
-  color: #FFFFFF;
-}
-
-.button:focus{
-  background-color: #0F4C75;
-  color: #FFFFFF;
+  transform: scale(1.1);
 }
 
 .img-section{
   height: 100vh;
-  background-color: #BBE1FA;
+  background-color: #F4CE14;
   display: flex;
   gap: 15rem;
   align-items: center;
@@ -96,7 +88,7 @@ a{
 
 .img-container h2{
   font-size: 2rem;
-  color: #1B262C;
+  color: #000000;
 }
 
 .dog-img{
@@ -109,7 +101,7 @@ a{
 
 .sticker-section{
   height: 100vh;
-  background-color: #1B262C;
+  background-color: #495E57;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -169,7 +161,6 @@ a{
 }
 
 .ver-btn{
-  color: #FFFFFF;
   padding: 0.8rem 4rem;
   font-weight: 700;
   font-size: 1rem;
@@ -181,15 +172,9 @@ a{
   border-radius: 0.5rem;
 }
 
-.ver-btn:hover{
-  background-color: #BBE1FA;
-  color: #1B262C;
-  transition: .6s ease-in-out;
-}
-
 .password-section{
   height: 100vh;
-  background-color: #0F4C75;
+  background-color: #45474B;
   display: flex;
   align-items: center;
   justify-content: center;
